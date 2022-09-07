@@ -1,0 +1,47 @@
+opkg update
+
+
+opkg install ath10k-board-qca988x
+opkg install ath10k-firmware-qca988x
+
+opkg install hostapd-common
+opkg install iw
+opkg install iwinfo
+opkg install kmod-ath
+opkg install kmod-ath10k
+opkg install kmod-ath9k
+opkg install kmod-ath9k-common
+
+opkg install kmod-cfg80211
+opkg install kmod-crypto-ccm
+opkg install kmod-crypto-cmac
+opkg install kmod-crypto-ctr
+opkg install kmod-crypto-gcm
+opkg install kmod-crypto-gf128
+opkg install kmod-crypto-ghash
+opkg install kmod-crypto-hmac
+opkg install kmod-crypto-rng
+opkg install kmod-crypto-seqiv
+opkg install kmod-crypto-sha256
+opkg install kmod-hwmon-core
+opkg install kmod-lib-crc16
+opkg install kmod-mac80211
+opkg install kmod-nls-base
+opkg install kmod-owl-loader
+opkg install kmod-usb-core
+opkg install kmod-usb-dwc2
+opkg install kmod-usb-roles
+
+opkg install wireless-regdb
+opkg install wpad-wolfssl
+opkg install luci
+opkg install luci-app-ddns
+opkg install luci-lib-ipkg
+opkg install ddns-scripts
+opkg install ddns-scripts-services
+
+#opkg install batctl-full
+#opkg install kmod-batman-adv
+#opkg install mesh11sd
+
+
